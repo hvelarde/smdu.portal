@@ -1,0 +1,4 @@
+Contributors
+============
+
+- Héctor Velarde

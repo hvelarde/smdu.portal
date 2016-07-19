@@ -1,0 +1,33 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="smdu.portal">
+
+  <five:registerPackage package="." />
+
+  <include package="collective.cover" />
+  <include package="collective.fingerpointing" />
+  <include package="collective.lazysizes" />
+  <include package="collective.nitf" />
+  <include package="collective.themecustomizer" />
+  <include package="collective.upload" />
+  <include package="plone.app.contenttypes" />
+  <include package="plone.app.theming" />
+  <include package="Products.PloneFormGen" />
+  <include package="sc.embedder" />
+  <include package="sc.photogallery" />
+  <include package="sc.social.like" />
+  <include package="webcouturier.dropdownmenu" />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="SMDU Portal"
+      directory="profiles/default"
+      description="Installs and configures the portal."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      i18n:attributes="title; description"
+      />
+
+</configure>

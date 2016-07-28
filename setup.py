@@ -49,6 +49,7 @@ setup(
         'plone4.csrffixes',
         'Products.GenericSetup',
         'Products.PloneFormGen',
+        'Products.PloneKeywordManager',
         'sc.embedder',
         'sc.photogallery',
         'sc.social.like',

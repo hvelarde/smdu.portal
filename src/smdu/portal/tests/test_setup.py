@@ -16,6 +16,7 @@ DEPENDENCIES = (
     'plone.app.contenttypes',
     'plone.app.theming',
     'PloneFormGen',
+    'PloneKeywordManager',
     'sc.embedder',
     'sc.photogallery',
     'sc.social.like',

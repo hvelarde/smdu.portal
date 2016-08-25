@@ -4,6 +4,6 @@
 
   <include package="plone.resource" />
 
-  <plone:static type="theme" name="Default" directory="themes/Default" />
+  <plone:static type="theme" name="Default" directory="themes/smdu-theme" />
 
 </configure>

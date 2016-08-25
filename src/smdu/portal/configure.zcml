@@ -22,6 +22,8 @@
   <include package="sc.social.like" />
   <include package="webcouturier.dropdownmenu" />
 
+  <include file="themes.zcml" />
+
   <genericsetup:registerProfile
       name="default"
       title="SMDU Portal"

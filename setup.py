@@ -43,6 +43,7 @@ setup(
         'collective.nitf',
         'collective.themecustomizer',
         'collective.upload',
+        'eea.facetednavigation',
         'plone.app.contenttypes',
         'plone.app.theming',
         'plone.resource',

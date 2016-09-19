@@ -99,7 +99,7 @@
         </span>
       </div>
       <tal:content tal:condition="not:advanced">
-        <input type="hidden" name="setup_content:boolean" value="true" />
+        <input type="hidden" name="setup_content:boolean" />
       </tal:content>
 
       <tal:baseprofile condition="python: len(base_profiles) > 1">

@@ -6,4 +6,6 @@
 
   <browser:jbot directory="overrides" />
 
+  <browser:resourceDirectory name="smdu.portal" directory="static" />
+
 </configure>

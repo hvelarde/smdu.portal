@@ -57,6 +57,7 @@ setup(
         'sc.social.like',
         'setuptools',
         'webcouturier.dropdownmenu',
+        'z3c.jbot',
         'zope.interface',
     ],
     extras_require={

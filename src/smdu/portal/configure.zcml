@@ -7,26 +7,10 @@
 
   <five:registerPackage package="." />
 
-  <include package="collective.cover" />
-  <include package="collective.feedaggregator" />
-  <include package="collective.fingerpointing" />
-  <include package="collective.lazysizes" />
-  <include package="collective.nitf" />
-  <include package="collective.themecustomizer" />
-  <include package="collective.upload" />
-  <include package="plone.app.contenttypes" />
-  <include package="plone.app.theming" />
-  <include package="Products.PloneFormGen" />
-  <include package="Products.PloneKeywordManager" />
-  <include package="sc.embedder" />
-  <include package="sc.photogallery" />
-  <include package="sc.social.like" />
-  <include package="webcouturier.dropdownmenu" />
-  <include package="z3c.jbot" />
+  <include file="dependencies.zcml" />
+  <include file="themes.zcml" />
 
   <include package=".browser" />
-
-  <include file="themes.zcml" />
 
   <genericsetup:registerProfile
       name="default"

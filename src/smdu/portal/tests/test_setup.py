@@ -8,6 +8,7 @@ import unittest
 
 DEPENDENCIES = (
     'collective.cover',
+    'collective.feedaggregator',
     'collective.fingerpointing',
     'collective.lazysizes',
     'collective.nitf',

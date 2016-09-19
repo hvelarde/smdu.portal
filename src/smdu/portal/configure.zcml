@@ -8,6 +8,7 @@
   <five:registerPackage package="." />
 
   <include package="collective.cover" />
+  <include package="collective.feedaggregator" />
   <include package="collective.fingerpointing" />
   <include package="collective.lazysizes" />
   <include package="collective.nitf" />

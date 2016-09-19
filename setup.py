@@ -38,6 +38,7 @@ setup(
     zip_safe=False,
     install_requires=[
         'collective.cover',
+        'collective.feedaggregator',
         'collective.fingerpointing',
         'collective.lazysizes',
         'collective.nitf',

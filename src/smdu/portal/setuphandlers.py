@@ -10,7 +10,21 @@ class NonInstallableProducts(object):
 
     def getNonInstallableProducts(self):
         return [
+            'collective.z3cform.datetimewidget',
+            'eea.jquery',
             'pas.plugins.ldap',
+            'plone.app.blocks',
+            'plone.app.contenttypes',
+            'plone.app.dexterity',
+            'plone.app.event',
+            'plone.app.event.at',
+            'plone.app.tiles',
+            'plone.formwidget.autocomplete',
+            'plone.formwidget.contenttree',
+            'plone.formwidget.datetime',
+            'plone.formwidget.querystring',
+            'plone.formwidget.recurrence',
+            'Products.Marshall',
             'yafowil.plone',
         ]
 

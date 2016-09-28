@@ -1,11 +1,22 @@
 # -*- coding: utf-8 -*-
 from plone import api
 from Products.CMFPlone.interfaces import INonInstallable
+from Products.CMFQuickInstallerTool.interfaces import INonInstallable as INonInstallableProducts
 from zope.interface import implementer
 
 
+@implementer(INonInstallableProducts)
+class NonInstallableProducts(object):
+
+    def getNonInstallableProducts(self):
+        return [
+            'pas.plugins.ldap',
+            'yafowil.plone',
+        ]
+
+
 @implementer(INonInstallable)
-class HiddenProfiles(object):
+class NonInstallable(object):
 
     def getNonInstallableProfiles(self):
         """Do not show on Plone's list of installable profiles."""
@@ -50,6 +61,8 @@ class HiddenProfiles(object):
             u'eea.jquery:25-rememberstate',
             u'eea.jquery:26-knob',
             u'eea.jquery:27-dracula',
+            u'pas.plugins.ldap.plonecontrolpanel:default',
+            u'pas.plugins.ldap.plonecontrolpanel:yafowil',
             u'plone.app.blocks:default',
             u'plone.app.contenttypes:plone-content',
             u'plone.app.dexterity:default',
@@ -75,6 +88,7 @@ class HiddenProfiles(object):
             u'sc.photogallery:default',
             u'sc.social.like:default',
             u'webcouturier.dropdownmenu:default',
+            u'yafowil.plone:default',
         ]
 
 def disable_news_items():

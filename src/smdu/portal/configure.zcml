@@ -22,6 +22,7 @@
       i18n:attributes="title; description"
       />
 
-  <utility factory=".setuphandlers.HiddenProfiles" name="smdu.portal" />
+  <utility factory=".setuphandlers.NonInstallable" name="smdu.portal" />
+  <utility factory=".setuphandlers.NonInstallableProducts" name="smdu.portal" />
 
 </configure>

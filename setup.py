@@ -45,6 +45,7 @@ setup(
         'collective.themecustomizer',
         'collective.upload',
         'eea.facetednavigation',
+        'pas.plugins.ldap',
         'plone.app.contenttypes',
         'plone.app.theming',
         'plone.resource',

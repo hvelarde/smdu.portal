@@ -49,7 +49,6 @@ setup(
         'plone.app.contenttypes',
         'plone.app.theming',
         'plone.resource',
-        'plone4.csrffixes',
         'Products.GenericSetup',
         'Products.PloneFormGen',
         'Products.PloneKeywordManager',

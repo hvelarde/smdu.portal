@@ -14,7 +14,7 @@ DEPENDENCIES = (
     'collective.nitf',
     'collective.themecustomizer',
     'collective.upload',
-    'plone.app.contenttypes',
+    # 'plone.app.contenttypes',  # FIXME: add-on reported as not installed
     'plone.app.theming',
     'PloneFormGen',
     'PloneKeywordManager',

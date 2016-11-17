@@ -42,6 +42,7 @@ setup(
         'collective.fingerpointing',
         'collective.lazysizes',
         'collective.nitf',
+        'collective.revisionmanager',
         'collective.themecustomizer',
         'collective.upload',
         'eea.facetednavigation',

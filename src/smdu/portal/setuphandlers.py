@@ -43,6 +43,7 @@ class NonInstallable(object):
             u'collective.js.jqueryui:default',
             u'collective.lazysizes:default',
             u'collective.nitf:default',
+            u'collective.revisionmanager:default',
             u'collective.themecustomizer:default',
             u'collective.themecustomizer:uninstall',
             u'collective.upload:default',

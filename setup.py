@@ -52,6 +52,7 @@ setup(
         'Products.GenericSetup',
         'Products.PloneFormGen',
         'Products.PloneKeywordManager',
+        'Products.RedirectionTool',
         'sc.embedder',
         'sc.photogallery',
         'sc.social.like',

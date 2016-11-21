@@ -7,39 +7,31 @@ upstream plone {
 }
 
 server {
-    listen 80;
-    server_name site.com.br;
-    rewrite ^/(.*) http://www.site.com.br/$1 permanent;
-}
-
-server {
     listen 80 default_server;
-    server_name www.site.com.br;
-
+    server_name site.prefeitura.sp.gov.br;
     client_max_body_size 10M;
 
+    if ($request_method !~ ^(GET|POST|HEAD)$) {
+        return 405;
+    }
+
     # return 429 Too Many Requests response to bad behaved clients
-    if ($http_user_agent ~* "AhrefsBot|BLP_bbot|DigExt|Scrapy|SimplePie|WordPress") {
+    if ($http_user_agent ~* "AhrefsBot|ArchiveTeam|BLP_bbot|DigExt|Scrapy|SimplePie|WordPress") {
         return 429;
     }
 
     location / {
-        if ($request_uri ~* ".(avi|css|flv|gif|gz|htc|ico|jpeg|jpg|js|mov|mp3|mpeg|mpg|png|rar|swf|txt|wmv|woff|zip)$") {
+        if ($request_uri ~* ".(avi|css|flv|gif|gz|htc|ico|jpeg|jpg|js|mov|mp3|mpeg|mpg|png|rar|swf|txt|wmv|woff|woff2|zip)$") {
             expires 7d;
         }
 
         proxy_cache backcache;
         proxy_cache_bypass $http_cache_control $cookie___ac;
         add_header X-Proxy-Cache $upstream_cache_status;
-
-        proxy_pass http://plone/VirtualHostBase/http/www.site.com.br:80/Plone/VirtualHostRoot/;
+        proxy_pass http://plone/VirtualHostBase/http/site.prefeitura.sp.gov.br:80/Plone/VirtualHostRoot/;
         proxy_http_version 1.1;
         proxy_set_header Connection "";
         proxy_ignore_headers Expires;
-    }
-
-    location /(search|@@search) {
-        limit_req zone=search burst=4;
     }
 
     location ~ /manage(_.+)?$ {
@@ -53,11 +45,6 @@ server {
 
     location ~ ^/(wp-admin|wp-content) {
         return 410;
-        access_log off;
-    }
-
-    location /crossdomain.xml {
-        return 404;
         access_log off;
     }
 

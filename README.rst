@@ -8,6 +8,12 @@ SMDU Portal
 Introduction
 ============
 
+.. image:: https://img.shields.io/travis/hvelarde/smdu.portal/master.svg
+    :target: http://travis-ci.org/hvelarde/smdu.portal
+
+.. image:: https://img.shields.io/coveralls/hvelarde/smdu.portal/master.svg
+    :target: https://coveralls.io/r/hvelarde/smdu.portal
+
 TBD
 
 Instalação

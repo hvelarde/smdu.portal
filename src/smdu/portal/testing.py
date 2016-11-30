@@ -20,6 +20,7 @@ class Fixture(PloneSandboxLayer):
         self.applyProfile(portal, 'smdu.portal:default')
         portal.portal_workflow.setDefaultChain('simple_publication_workflow')
 
+
 FIXTURE = Fixture()
 
 INTEGRATION_TESTING = IntegrationTesting(

@@ -2,7 +2,7 @@
 from setuptools import find_packages
 from setuptools import setup
 
-version = '1.0a1'
+version = '1.0'
 description = 'SMDU Portal'
 long_description = (
     open('README.rst').read() + '\n' +
@@ -16,7 +16,7 @@ setup(
     description=description,
     long_description=long_description,
     classifiers=[
-        'Development Status :: 4 - Beta',
+        'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
         'Framework :: Plone',
         'Framework :: Plone :: 4.3',

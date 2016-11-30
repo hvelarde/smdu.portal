@@ -8,7 +8,7 @@ from zope.interface import implementer
 @implementer(INonInstallableProducts)
 class NonInstallableProducts(object):
 
-    def getNonInstallableProducts(self):
+    def getNonInstallableProducts(self):  # pragma: no cover
         return [
             'collective.z3cform.datetimewidget',
             'eea.jquery',
@@ -32,7 +32,7 @@ class NonInstallableProducts(object):
 @implementer(INonInstallable)
 class NonInstallable(object):
 
-    def getNonInstallableProfiles(self):
+    def getNonInstallableProfiles(self):  # pragma: no cover
         """Do not show on Plone's list of installable profiles."""
         return [
             u'collective.cover:default',

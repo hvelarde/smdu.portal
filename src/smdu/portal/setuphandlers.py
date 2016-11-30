@@ -107,6 +107,7 @@ class NonInstallable(object):
             u'yafowil.plone:default',
         ]
 
+
 def disable_news_items():
     """We are using collective.nitf as preferred news content type."""
     types_tool = api.portal.get_tool('portal_types')

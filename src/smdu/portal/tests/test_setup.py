@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
+from plone.browserlayer.utils import registered_layers
 from smdu.portal.config import PROJECTNAME
 from smdu.portal.interfaces import IBrowserLayer
 from smdu.portal.testing import INTEGRATION_TESTING
-from plone.browserlayer.utils import registered_layers
 
 import unittest
+
 
 DEPENDENCIES = (
     'collective.cover',
@@ -14,7 +15,8 @@ DEPENDENCIES = (
     'collective.nitf',
     'collective.themecustomizer',
     'collective.upload',
-    # 'plone.app.contenttypes',  # FIXME: add-on reported as not installed
+    # XXX: https://github.com/plone/plone.app.contenttypes/issues/178
+    # 'plone.app.contenttypes',
     'plone.app.theming',
     'PloneFormGen',
     'PloneKeywordManager',

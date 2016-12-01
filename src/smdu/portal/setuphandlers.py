@@ -100,6 +100,7 @@ class NonInstallable(object):
             u'Products.PloneKeywordManager:default',
             u'Products.PloneKeywordManager:uninstall',
             u'Products.Products.RedirectionTool:default',
+            u'Products.RedirectionTool:default',
             u'sc.embedder:default',
             u'sc.photogallery:default',
             u'sc.social.like:default',

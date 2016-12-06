@@ -5,5 +5,7 @@
   <include package="plone.resource" />
 
   <plone:static type="theme" name="Default" directory="themes/smdu-theme" />
+  <plone:static type="theme" name="GestaoUrbana" directory="themes/gestaourbana-theme" />
+  <plone:static type="theme" name="ObservaSampa" directory="themes/observasampa-theme" />
 
 </configure>

@@ -17,7 +17,7 @@ class ThemeTestCase(unittest.TestCase):
     def test_available_themes(self):
         from plone.app.theming.utils import getAvailableThemes
         themes = getAvailableThemes()
-        self.assertEqual(len(themes), 3)
+        self.assertEqual(len(themes), 5)
 
     def test_theme_enabled(self):
         from plone.app.theming.utils import isThemeEnabled

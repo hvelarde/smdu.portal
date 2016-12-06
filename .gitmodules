@@ -1,3 +1,6 @@
 [submodule "src/smdu/portal/themes/smdu-theme"]
 	path = src/smdu/portal/themes/smdu-theme
 	url = https://github.com/hvelarde/smdu-theme.git
+[submodule "src/smdu/portal/themes/observasampa-theme"]
+	path = src/smdu/portal/themes/observasampa-theme
+	url = https://github.com/hvelarde/observasampa-theme.git

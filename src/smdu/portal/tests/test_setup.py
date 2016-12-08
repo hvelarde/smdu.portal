@@ -23,6 +23,7 @@ DEPENDENCIES = (
     'sc.embedder',
     'sc.photogallery',
     'sc.social.like',
+    'smdu.identidadevisual',
     'webcouturier.dropdownmenu',
 )
 

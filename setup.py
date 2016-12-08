@@ -49,6 +49,7 @@ setup(
         'pas.plugins.ldap',
         'plone.app.contenttypes',
         'plone.app.theming',
+        'smdu.identidadevisual',
         'plone.resource',
         'Products.GenericSetup',
         'Products.PloneFormGen',

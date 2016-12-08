@@ -16,6 +16,7 @@
     <dependency>profile-sc.embedder:default</dependency>
     <dependency>profile-sc.photogallery:default</dependency>
     <dependency>profile-sc.social.like:default</dependency>
+    <dependency>profile-smdu.identidadevisual:default</dependency>
     <dependency>profile-webcouturier.dropdownmenu:default</dependency>
   </dependencies>
 </metadata>

@@ -13,9 +13,6 @@ class SiteSettingsTestCase(unittest.TestCase):
         self.portal = self.layer['portal']
         self.languages = self.portal['portal_languages']
 
-    def test_portal_title(self):
-        self.assertEqual(self.portal.title, 'SMDU Portal')
-
     def test_use_combined_language_codes(self):
         self.assertEqual(self.languages.use_combined_language_codes, 1)
 

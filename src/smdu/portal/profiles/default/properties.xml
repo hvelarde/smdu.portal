@@ -1,7 +1,5 @@
 <?xml version="1.0"?>
 <site>
- <property name="title">SMDU Portal</property>
- <property name="description"></property>
  <property name="email_from_address" type="string"></property>
  <property name="email_from_name" type="string"></property>
  <property name="validate_email" type="boolean">True</property>

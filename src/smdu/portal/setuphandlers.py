@@ -104,6 +104,8 @@ class NonInstallable(object):
             u'sc.embedder:default',
             u'sc.photogallery:default',
             u'sc.social.like:default',
+            u'smdu.identidadevisual:default',
+            u'smdu.identidadevisual:uninstall',
             u'webcouturier.dropdownmenu:default',
             u'yafowil.plone:default',
         ]

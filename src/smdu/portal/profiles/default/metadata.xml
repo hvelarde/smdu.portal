@@ -9,6 +9,7 @@
     <dependency>profile-collective.nitf:default</dependency>
     <dependency>profile-collective.themecustomizer:default</dependency>
     <dependency>profile-collective.upload:default</dependency>
+    <dependency>profile-plone.app.caching:default</dependency>
     <dependency>profile-plone.app.contenttypes:default</dependency>
     <dependency>profile-plone.app.theming:default</dependency>
     <dependency>profile-Products.PloneFormGen:default</dependency>

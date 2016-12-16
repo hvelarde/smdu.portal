@@ -47,6 +47,7 @@ setup(
         'collective.upload',
         'eea.facetednavigation',
         'pas.plugins.ldap',
+        'plone.app.caching',
         'plone.app.contenttypes',
         'plone.app.theming',
         'smdu.identidadevisual',

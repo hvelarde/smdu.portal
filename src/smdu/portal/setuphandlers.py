@@ -79,6 +79,7 @@ class NonInstallable(object):
             u'pas.plugins.ldap.plonecontrolpanel:default',
             u'pas.plugins.ldap.plonecontrolpanel:yafowil',
             u'plone.app.blocks:default',
+            u'plone.app.caching:default',
             u'plone.app.contenttypes:plone-content',
             u'plone.app.dexterity:default',
             u'plone.app.drafts:default',

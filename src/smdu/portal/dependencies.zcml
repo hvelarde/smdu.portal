@@ -7,6 +7,7 @@
   <include package="collective.nitf" />
   <include package="collective.themecustomizer" />
   <include package="collective.upload" />
+  <include package="plone.app.caching" />
   <include package="plone.app.contenttypes" />
   <include package="plone.app.theming" />
   <include package="Products.PloneFormGen" />

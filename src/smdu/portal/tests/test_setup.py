@@ -17,6 +17,7 @@ DEPENDENCIES = (
     'collective.upload',
     # XXX: https://github.com/plone/plone.app.contenttypes/issues/178
     # 'plone.app.contenttypes',
+    'plone.app.caching',
     'plone.app.theming',
     'PloneFormGen',
     'PloneKeywordManager',

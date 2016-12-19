@@ -16,6 +16,7 @@
   <include package="sc.photogallery" />
   <include package="sc.social.like" />
   <include package="smdu.identidadevisual" />
+  <include package="smdu.participacao" />
   <include package="webcouturier.dropdownmenu" />
   <include package="z3c.jbot" />
 

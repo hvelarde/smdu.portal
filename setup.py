@@ -51,6 +51,7 @@ setup(
         'plone.app.contenttypes',
         'plone.app.theming',
         'smdu.identidadevisual',
+        'smdu.participacao',
         'plone.resource',
         'Products.GenericSetup',
         'Products.PloneFormGen',

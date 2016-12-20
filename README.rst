@@ -22,11 +22,19 @@ Instalação
 Dependencias
 ------------
 
-Na sequência se descreve como instalar as dependências do SO Debian/Ubuntu.
-Estas dependências devem ser instaladas antes de rodar o buildout pela primeira vez.
+Esta seção se descreve como instalar as dependências do projeto.
+É importante sinalar que todas as dependências devem ser instaladas antes de rodar o buildout pela primeira vez.
 
-O suporte LDAP/Active Directory depende do ``python-ldap``:
+O suporte LDAP/Active Directory depende do pacote ``python-ldap``.
+
+No Debian/Ubuntu, é preciso instalar:
 
 .. code-block:: console
 
     sudo apt install python-dev libldap2-dev libsasl2-dev libssl-dev
+
+No CentOS/RHEL, é preciso instalar:
+
+.. code-block:: console
+
+    sudo yum install python-devel openldap-devel

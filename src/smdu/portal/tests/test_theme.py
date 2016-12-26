@@ -32,8 +32,11 @@ class ThemeTestCase(unittest.TestCase):
         from plone.app.theming.utils import getTheme
         theme = getTheme('Default')
         self.assertIsNotNone(theme)
-        self.assertEqual(theme.title, 'SMDU Portal')
-        self.assertEqual(theme.description, 'Tema para portal da SMDU')
+        self.assertEqual(theme.title, 'Tema Padrão SMDU')
+        self.assertEqual(
+            theme.description,
+            'Tema Diazo padrão para uso no projeto SMDU Portal.',
+        )
         self.assertEqual(theme.absolutePrefix, '/++theme++Default')
         self.assertEqual(theme.rules, '/++theme++Default/rules.xml')
         self.assertEqual(theme.doctype, '<!DOCTYPE html>')

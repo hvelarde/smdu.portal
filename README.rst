@@ -48,7 +48,7 @@ Instalação no Ubuntu Server 16.04.1 LTS
 .. code-block:: console
 
     sudo apt update && sudo apt upgrade
-    sudo apt install -y build-essential libssl-dev libxml2-dev libxslt1-dev libbz2-dev zlib1g-dev python-setuptools python-dev python-virtualenv libjpeg62-turbo-dev libreadline-gplv2-dev python-imaging python-pip wv poppler-utils git libldap2-dev libsasl2-dev libssl-dev
+    sudo apt install -y build-essential libssl-dev libxml2-dev libxslt1-dev libbz2-dev zlib1g-dev python-setuptools python-dev python-virtualenv libjpeg62-dev libreadline-gplv2-dev python-imaging python-pip wv poppler-utils git libldap2-dev libsasl2-dev libssl-dev
 
 Instalação no CentOS 7
 ^^^^^^^^^^^^^^^^^^^^^^

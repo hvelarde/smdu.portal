@@ -12,7 +12,7 @@ matrix:
 install:
 - cp development.cfg buildout.cfg
 - sed -ie "s#test-4.3#test-$PLONE_VERSION#" buildout.cfg
-- python bootstrap.py
+- python bootstrap.py --setuptools-version=32.3.0 --buildout-version=2.5.3
 - bin/buildout annotate
 - bin/buildout
 script:

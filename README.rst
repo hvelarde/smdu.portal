@@ -118,7 +118,7 @@ Para compilar o Zope é necessário dar um bootstrap no projeto e rodar o buildo
 
 .. code-block:: console
 
-    python bootstrap.py
+    python bootstrap.py --setuptools-version=32.3.0 --buildout-version=2.5.3
     bin/buildout
 
 Inicialização do Zope
